@@ -1,0 +1,211 @@
+/* reset css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Cor de fundo da página e do texto */
+body{
+    background-color: rgb(0, 1, 39);
+    color: #ffffff;
+}
+/* posição do h1 para a lateral superior esquerda */
+h1 {
+    text-align:left;
+}
+/* Posição dos títulos das seções no centro */
+h2 {
+    padding: 35px;  
+    text-align: center;  
+}
+/* Texto da página justificado e seu tamanho de fonte */
+p {
+    font-size: 27px;
+    padding:10px ;
+    text-align: justify;
+}
+/* Estiliação das divisórias das seções */
+.titulo{
+    font-family: 'Krona One', sans-serif;
+    font-size: 23px;
+    color: rgb(0, 1, 39);
+    background: linear-gradient(90deg, rgba(6,243,175,1) 0%, rgba(15,64,149,1) 100%, rgba(255,255,255,1) 100%);
+}
+/* Posicionamento e tamanho da imagem de apresentação */
+.imagem_apresentacao{
+    width: 500px;
+    height: 500px;
+    border-radius: 16px;
+}
+/* Tamnho de todas as outras imagens da página */
+img{
+    width: 650px;
+    height: 500px;
+    border-radius: 16px;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/* Estilização dos botões das redes sociais e do formulário */
+button{
+    background-color:rgba(6, 243, 176, 0.808);
+    color:rgb(0, 1, 39);
+    width: 220px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    font-family:'Krona One', sans-serif;
+    padding: 15px;
+    text-decoration: none;
+    font-weight: 600;
+    border: none;
+    outline: none;
+}
+/* Disposição dos botões das redes sociais em baio da imagem de apresentação */
+.botoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+/* Espaçamento entre as imagens e o texto das seções */
+main{
+    padding: 1px;
+    margin-left: 60px;
+    margin-bottom: 30px;
+}
+/* Formatação e disposição na página do meu artigo */
+article{
+    display: flex; 
+    flex-direction: column;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 18px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 30px;
+}
+/* Divisão da página em duas para separar os textos das imagens e colocá-las um do lado da outra */
+.separacao{
+    display: flex;
+    flex-direction:row;
+    padding: 1px;
+    align-items: center;
+}
+/* Divisória que engloba a primeira imagem e os botões das redes sociais */
+.redes-sociais{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:15px;
+}
+/* Estilização do botão quando passa o mouse em cima */
+button:hover{
+    background: rgba(15,64,149,1);
+    border: none;
+}
+/* Disposição do menu */
+.menu{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    font-family: 'Krona One', sans-serif;
+    font-size: 20px;
+}
+/* Tamanho da lista e retirada das bolinhas */
+ul{
+    font-size: 30px; 
+    list-style: none;
+}
+.lista-menu{
+    font-size: 15px;
+    padding: 25px;
+}
+/* Estilização dos links */
+.lista-menu ul a{
+    text-decoration: none;
+    color:rgba(6,243,175,1);
+    transition: .3s;
+}
+.lista-menu ul{
+    display: flex;
+    gap: 25px;
+    position: relative;
+}
+/* Estilização dos links quando passa o mouse em cima */
+.lista-menu ul a:hover{
+    color:rgba(15,64,149,1);
+}
+/* Estilização dos traçinhos criados no menu para divisória do conteúdo */
+.inicio::after{
+    content: "";
+    width: 3px;
+    height: 60px;
+    background-color: rgba(15,64,149,1);
+    position: absolute;
+    top: -9px;
+    left: 114px;
+}
+.hobbies::after{
+    content: "";
+    width: 3px;
+    height: 60px;
+    background-color: rgba(15,64,149,1);
+    position: absolute;
+    top: -9px;
+    left: 302px;
+}
+/* Criado para estilizar o nome na lateral superior esquerda */
+.cabecario{
+    font-size: 20px;
+    padding: 25px;
+    width:auto;
+    color:rgba(6,243,175,1);
+}
+/* Importação da fonte e centralização do formulário */
+.formulario{
+    padding: 40px;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+/* Estilização do form para ele ficar com aspecto de vidro */
+form{
+    justify-content: space-between;
+    width: auto;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: rgba( 6, 243, 175, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2.5px );
+    border-radius: 16px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    height: 650px;
+}
+/* Tamanho da fonte nos títulos do formulário */
+label{
+    font-size: 30px;
+}
+/* Estilização das divisórias para entrada de dados do formulário */
+input{
+    background: rgba( 6, 243, 175, 0.4 );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    height: 40px;
+    width: 400px;
+}
+/* Cor da letra da entrada de dados */
+input:hover{
+    color:rgb(255, 255, 255);
+}
+/* Estilização do rodapé da página com uma cor de fundo dierente */
+footer{
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color:  rgba(15,64,149,1);
+    padding: 5px;
+    text-align: center;
+    font-size: 13px;
+}
