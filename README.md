@@ -2,7 +2,7 @@
 Projeto desenvolvido no curso de Desenvolvedor Full Stack promovido pela Resilia em parceria com a fintech Ebanx de Curitiba. <br>
 
 O projeto visa o desenvolvimento de uma página web com 3 seções linkadas no topo do site para as categorias: início, hobbies e contato.
-Onde, em cada uma delas é apresentado um pouco sobre mim. Os links são todos funcioanis e levam até a seção pretendida na página. <br>
+Onde, em cada uma delas é apresentado um pouco sobre mim. Os links são todos funcionais e levam até a seção pretendida na página. <br>
 
 Esta página foi desenvolvida usando o VSCode juntamente com as propriedades do HTML5 e do CSS3. É um página simples por se tratar do primeiro projeto desenvolvido pela turma.
 (Códigos do Amanhã - 2023) <br>
